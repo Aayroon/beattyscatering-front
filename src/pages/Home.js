@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Customfooter from '../components/Footer'
 
 
 
@@ -9,7 +10,7 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      
+
 
       <div className="relative">
         <div className="mx-auto max-w-7xl">
@@ -64,6 +65,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Customfooter></Customfooter>
     </div>
   )
 }

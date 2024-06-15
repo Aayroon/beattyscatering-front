@@ -1,3 +1,5 @@
+import Customfooter from '../components/Footer'
+
 const people = [
     {
       name: 'Whitney Francis',
@@ -100,6 +102,7 @@ const people = [
             ))}
           </ul>
         </div>
+        <Customfooter></Customfooter>
       </div>
     )
   }

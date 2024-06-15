@@ -1,4 +1,5 @@
 import React from 'react';
+import Customfooter from '../components/Footer'
 
 function Contact() {
     return (
@@ -117,6 +118,7 @@ function Contact() {
             </div>
           </div>
         </div>
+        <Customfooter></Customfooter>
       </main>
     );
 }
