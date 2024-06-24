@@ -2,57 +2,57 @@ import Customfooter from '../components/Footer'
 
 const people = [
     {
-      name: 'Whitney Francis',
-      role: 'Copywriter',
+      name: 'Beatty',
+      role: 'Executive Chef',
       imageUrl:
         'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      xUrl: '#',
-      linkedinUrl: '#',
+      /*xUrl: '#',
+      linkedinUrl: '#',*/
     },
 
     {
-        name: 'Whitney Francis',
-        role: 'Copywriter',
+        name: 'Beatty',
+        role: 'Personal Chef',
         imageUrl:
           'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        xUrl: '#',
-        linkedinUrl: '#',
+        /*xUrl: '#',
+        linkedinUrl: '#',*/
       },
 
       {
-        name: 'Whitney Francis',
-        role: 'Copywriter',
+        name: 'Beatty',
+        role: 'Assistant Chef',
         imageUrl:
           'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        xUrl: '#',
-        linkedinUrl: '#',
+        /*xUrl: '#',
+        linkedinUrl: '#',*/
       },
 
       {
-        name: 'Whitney Francis',
-        role: 'Copywriter',
+        name: 'Beatty',
+        role: 'Quality Control Specialist',
         imageUrl:
           'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        xUrl: '#',
-        linkedinUrl: '#',
+        /*xUrl: '#',
+        linkedinUrl: '#',*/
       },
 
       {
-        name: 'Whitney Francis',
-        role: 'Copywriter',
+        name: 'Beatty',
+        role: 'Service Staff',
         imageUrl:
           'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        xUrl: '#',
-        linkedinUrl: '#',
+        /*xUrl: '#',
+        linkedinUrl: '#',*/
       },
 
       {
-        name: 'Whitney Francis',
-        role: 'Copywriter',
+        name: 'Beatty',
+        role: 'Delivery Coordinator',
         imageUrl:
           'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-        xUrl: '#',
-        linkedinUrl: '#',
+        /*xUrl: '#',
+        linkedinUrl: '#',*/
       },
     // More people...
   ]
@@ -62,9 +62,14 @@ const people = [
       <div className="bg-white py-32">
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div className="mx-auto max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet our team</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Team Behind the Delight</h2>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              We’re a dynamic group of individuals who are passionate about what we do.
+              At the heart of our catering service is a team of dedicated professionals who bring their passion for culinary arts and event planning to every occasion.
+              Our chefs, with years of experience in the finest kitchens, craft menus that are both innovative and delicious, ensuring your event is a memorable culinary journey.
+              They bring a wealth of knowledge and creativity to the kitchen, preparing dishes that delight the senses.
+              Our coordinators and staff work tirelessly behind the scenes to make sure every detail is perfect, from the first consultation to the final bite.
+              We pride ourselves on our commitment to excellence and our ability to create personalized experiences that exceed our clients' expectations.
+              Get to know the people who make it all happen.
             </p>
           </div>
           <ul
@@ -76,7 +81,7 @@ const people = [
                 <img className="mx-auto h-56 w-56 rounded-full" src={person.imageUrl} alt="" />
                 <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-sm leading-6 text-gray-600">{person.role}</p>
-                <ul role="list" className="mt-6 flex justify-center gap-x-6">
+                {/*<ul role="list" className="mt-6 flex justify-center gap-x-6">
                   <li>
                     <a href={person.xUrl} className="text-gray-400 hover:text-gray-500">
                       <span className="sr-only">X</span>
@@ -97,7 +102,7 @@ const people = [
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul>*/}
               </li>
             ))}
           </ul>
