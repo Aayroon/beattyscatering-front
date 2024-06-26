@@ -1,58 +1,106 @@
 import {
-    ArrowPathIcon,
-    CloudArrowUpIcon,
-    CogIcon,
-    LockClosedIcon,
-    ServerIcon,
-    ShieldCheckIcon,
+    HeartIcon,
+    BriefcaseIcon,
+    GiftIcon,
+    AcademicCapIcon,
+    UserGroupIcon,
+    TrophyIcon,
+    ShoppingBagIcon,
+    SparklesIcon,
+    StarIcon,
+    HomeIcon,
+    LightBulbIcon,
+    FireIcon,
   } from '@heroicons/react/24/outline'
 
   import Customfooter from '../components/Footer'
   
   const features = [
     {
-      name: 'Push to Deploy',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: CloudArrowUpIcon,
+      name: 'Weddings',
+      description: 'Celebrate your special day with our bespoke wedding catering services, ' +
+          'offering elegant and personalized menus to make your wedding unforgettable.',
+      icon: HeartIcon,
     },
     {
-      name: 'SSL Certificates',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: LockClosedIcon,
+      name: 'Corporate Events',
+      description: 'Impress your colleagues and clients with our professional corporate event catering, ' +
+          'featuring a variety of options for meetings, conferences, and office parties.',
+      icon: BriefcaseIcon,
     },
     {
-      name: 'Simple Queues',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: ArrowPathIcon,
+      name: 'Birthday Parties',
+      description: 'Make your birthday celebration extra special with our tailored catering services, ' +
+          'offering delicious menus that cater to all tastes and preferences.',
+      icon: GiftIcon,
     },
     {
-      name: 'Advanced Security',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: ShieldCheckIcon,
+      name: 'Graduation Parties',
+      description: 'Celebrate academic achievements with our graduation party catering, ' +
+          'offering a range of festive and delicious menu options.',
+      icon: AcademicCapIcon,
     },
     {
-      name: 'Powerful API',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: CogIcon,
+      name: 'Family Reunions',
+      description: 'Bring the family together with our family reunion catering, ' +
+          'offering hearty and home-style dishes that everyone will enjoy.',
+      icon: UserGroupIcon,
     },
     {
-      name: 'Database Backups',
-      description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-      icon: ServerIcon,
+      name: 'Sports Events',
+      description: 'Fuel your team and fans with our sports event catering, ' +
+          'offering a variety of hearty and satisfying menu options.',
+      icon: TrophyIcon,
     },
+      {
+          name: 'Baby Shower',
+          description: 'Celebrate the upcoming arrival with our baby shower catering, ' +
+              'offering sweet and savory options that delight guests of all ages.',
+          icon: ShoppingBagIcon,
+      },
+      {
+          name: 'Bridal Shower',
+          description: 'Treat the bride-to-be to a delightful bridal shower with our elegant and themed catering options, ' +
+              'perfect for a memorable gathering.',
+          icon: SparklesIcon,
+      },
+      {
+          name: 'Anniversary Celebrations',
+          description: 'Commemorate your anniversary with a romantic dining experience, ' +
+              'complete with a custom menu and impeccable service.',
+          icon: StarIcon,
+      },
+      {
+          name: 'Retirement Parties',
+          description: 'Honor the retiree with a special event featuring our catering, ' +
+              'providing delicious food and exceptional service.',
+          icon: HomeIcon,
+      },
+      {
+          name: 'Charity Events',
+          description: ' Make your charity event a success with our comprehensive catering services, ' +
+              'offering delicious menus that support your cause.',
+          icon: LightBulbIcon,
+      },
+      {
+          name: 'Picnic Events',
+          description: 'Savor an outdoor event, featuring a selection of gourmet delights, perfect for a delightful and laid-back gathering.',
+          icon: FireIcon,
+      },
   ]
   
   export default function Services() {
     return (
       <div className="relative bg-white py-24 sm:py-32 lg:py-40">
         <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-          <h2 className="text-lg font-semibold text-indigo-600">Deploy faster</h2>
+          <h2 className="text-lg font-semibold text-indigo-600">Our Services</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+              Tailored Catering for Every Event
           </p>
           <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-            Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-            malesuada. Eleifend condimentum id viverra nulla.
+              Delve into our comprehensive suite of catering services, crafted to transform your event into an unforgettable occasion.
+              Whether you're hosting a small, intimate gathering or a large, grand celebration,
+              our versatile options are designed to cover every aspect, ensuring a memorable experience for all.
           </p>
           <div className="mt-20">
             <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
