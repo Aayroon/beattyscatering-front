@@ -13,6 +13,22 @@
   ```
 */
 import Customfooter from '../components/Footer'
+import image1 from '../images/1000208658.jpg'
+import image2 from '../images/1000208615.jpg'
+import image3 from '../images/1000208551.jpg'
+import image4 from '../images/1000208644.jpg'
+import image5 from '../images/1000208665.jpg'
+import image6 from '../images/1000208639.jpg'
+import image7 from '../images/1000085119.jpg'
+import image8 from '../images/1000208564.jpg'
+import image9 from '../images/1000208655.jpg'
+import image10 from '../images/1000208669.jpg'
+import image11 from '../images/292.jpg'
+import image12 from '../images/1000208495.jpg'
+import image13 from '../images/1000208603.jpg'
+import image14 from '../images/1000208612.jpg'
+import image15 from '../images/1000208678.jpg'
+import image16 from '../images/1000208671.jpg'
 
 const products = [
     {
@@ -20,128 +36,128 @@ const products = [
         /*name: 'Earthen Bottle',*/
         href: '#',
         /*price: '$48',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-        imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+        imageSrc: image1,
+        // imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
         id: 2,
         /*name: 'Nomad Tumbler',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-        imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+        imageSrc: image2,
+        // imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
         id: 3,
         /*name: 'Focus Paper Refill',*/
         href: '#',
         /*price: '$89',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-        imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+        imageSrc: image3,
+        // imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
         id: 4,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image4,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 5,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image5,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 6,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image6,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 7,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image7,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 8,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image8,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 9,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image9,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 10,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image10,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 11,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image11,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 12,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image12,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 13,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image13,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 14,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image14,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 15,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image15,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     {
         id: 16,
         /*name: 'Machined Mechanical Pencil',*/
         href: '#',
         /*price: '$35',*/
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-        imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+        imageSrc: image16,
+        // imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     // More products...
 ]

@@ -1,11 +1,12 @@
 import Customfooter from '../components/Footer'
+import beattyImage from '../images/1000208524.jpg';
+
 
 const people = [
     {
       name: 'Beatty',
       role: 'Executive Chef',
-      imageUrl:
-        'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+      imageUrl: beattyImage,
       /*xUrl: '#',
       linkedinUrl: '#',*/
     },
@@ -13,8 +14,7 @@ const people = [
     {
         name: 'Beatty',
         role: 'Personal Chef',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        imageUrl: beattyImage,
         /*xUrl: '#',
         linkedinUrl: '#',*/
       },
@@ -22,8 +22,7 @@ const people = [
       {
         name: 'Beatty',
         role: 'Assistant Chef',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        imageUrl: beattyImage,
         /*xUrl: '#',
         linkedinUrl: '#',*/
       },
@@ -31,8 +30,7 @@ const people = [
       {
         name: 'Beatty',
         role: 'Quality Control Specialist',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        imageUrl: beattyImage,
         /*xUrl: '#',
         linkedinUrl: '#',*/
       },
@@ -40,8 +38,7 @@ const people = [
       {
         name: 'Beatty',
         role: 'Service Staff',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        imageUrl: beattyImage,
         /*xUrl: '#',
         linkedinUrl: '#',*/
       },
@@ -49,8 +46,7 @@ const people = [
       {
         name: 'Beatty',
         role: 'Delivery Coordinator',
-        imageUrl:
-          'https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        imageUrl: beattyImage,
         /*xUrl: '#',
         linkedinUrl: '#',*/
       },

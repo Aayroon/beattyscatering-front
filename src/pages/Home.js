@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Customfooter from '../components/Footer'
+import myImage from '../images/1000208591.jpg';
+
 
 
 
@@ -58,7 +60,7 @@ export default function Home() {
           <div className="bg-ivory lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
                 className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+                src={myImage}
                 alt=""
             />
           </div>
