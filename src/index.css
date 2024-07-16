@@ -8,6 +8,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFF0; /* Ivory */
+  color: #800020; /* Burgundy */
 }
 
 code {
