@@ -24,6 +24,7 @@ const navigation = [
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [activeMenu, setActiveMenu] = useState('/'); // State to track active menu item
 
   return (
       <Router>
@@ -53,7 +54,7 @@ export default function App() {
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
               {navigation.map((item) => (
-                  <Link key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                  <Link key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-gray-900 hover:text-white hover:bg-[#800020] p-2 rounded">
                     {item.name} 
                   </Link>
               ))}
@@ -88,12 +89,14 @@ export default function App() {
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
-                    {navigation.map((item) => (
+                    {navigation.map((item, index) => (
                         <Link
                             key={item.name}
                             to={item.href}
-                            className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                            onClick={() => setMobileMenuOpen(false)} // Close menu on click
+                            className={"-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-[#800020] hover:text-white ${activeMenu === item.href ? 'bg-gray-200' : ''} ${index < navigation.length - 1 ? 'border-b border-gray-200' : '' // Add bottom border except for the last item}"}
+                            onClick={() => {
+                              setActiveMenu(item.href); // Set active menu item on click
+                              setMobileMenuOpen(false)}} // Close menu on click
                         >
                           {item.name} 
                         </Link>
