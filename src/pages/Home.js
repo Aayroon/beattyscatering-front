@@ -11,10 +11,10 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-      <div className="bg-ivory">
+      <div className="pages-section bg-ivory">
         <div className="relative">
           <div className="mx-auto max-w-7xl">
-            <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+            <div className="relative z-10 lg:w-full lg:max-w-2xl">
               <svg
                   className="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-ivory lg:block"
                   viewBox="0 0 100 100"
@@ -24,7 +24,7 @@ export default function Home() {
                 <polygon points="0,0 90,0 50,100 0,100" />
               </svg>
 
-              <div className="relative px-6 py-32 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
+              <div className="relative px-6 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                   <div className="hidden sm:mb-10 sm:flex">
                     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -49,7 +49,7 @@ export default function Home() {
                     >
                       Get a Quote
                     </a>
-                    <a href="services" className="text-sm font-semibold leading-6 text-burgundy">
+                    <a href="services" className="text-sm font-semibold leading-6 text-burgundy hover:text-white hover:bg-[#800020] p-2 rounded">
                       Explore Services <span aria-hidden="true">→</span>
                     </a>
                   </div>

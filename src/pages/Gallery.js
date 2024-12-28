@@ -164,7 +164,7 @@ const products = [
 
 export default function Gallery() {
     return (
-        <div className="bg-cream py-16 sm:py-24">
+        <div className="pages-section bg-cream">
             <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                 <h2 className="text-3xl font-bold tracking-tight text-burgundy sm:text-4xl text-center">Gallery</h2>
 

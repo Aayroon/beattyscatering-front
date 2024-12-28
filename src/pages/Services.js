@@ -91,7 +91,7 @@ import {
   
   export default function Services() {
       return (
-          <div className="relative bg-cream py-24 sm:py-32 lg:py-40">
+          <div className="pages-section bg-cream">
               <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
                   <h2 className="text-lg font-semibold text-gold">Our Services</h2>
                   <p className="mt-2 text-3xl font-bold tracking-tight text-burgundy sm:text-4xl">

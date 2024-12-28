@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.pages-section {
+  padding-top: 1rem; /* Adjust based on design */
+  padding-bottom: 1rem; /* Add bottom spacing too */
+}
+
+@media (min-width: 640px) {
+  .pages-section {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pages-section {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+}
+

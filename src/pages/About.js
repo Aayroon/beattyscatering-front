@@ -55,7 +55,7 @@ const people = [
   
   export default function About() {
     return (
-        <div className="bg-ivory py-32">
+        <div className="pages-section bg-ivory">
           <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
             <div className="mx-auto max-w-2xl">
               <h2 className="text-3xl font-bold tracking-tight text-wine sm:text-4xl">The Team Behind the Delight</h2>
