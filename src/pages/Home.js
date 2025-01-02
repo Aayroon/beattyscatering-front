@@ -57,12 +57,15 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-ivory lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div className="bg-ivory lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 px-4 sm:px-6 lg:px-8">
+          <div className="relative">
+            <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30 lg:hidden" />
             <img
-                className="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
+                className="aspect-[4/3] w-full max-w-screen-sm mx-auto rounded-lg object-cover shadow-lg lg:aspect-auto lg:h-full lg:w-auto"
                 src={myImage}
                 alt=""
             />
+            </div>
           </div>
         </div>
         <Customfooter />
