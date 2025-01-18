@@ -42,7 +42,7 @@ export default function Home() {
                     From intimate gatherings to grand celebrations, we provide top-notch catering services for weddings, corporate events, parties, and more.
                     Our dedicated team brings culinary artistry and exceptional service to your special events, making them truly unforgettable.
                   </p>
-                  <div className="mt-10 flex items-center gap-x-500">
+                  <div className="mt-10 flex items-center gap-x-5">
                     <a
                         href="contact"
                         className="rounded-md bg-burgundy px-3.5 py-2.5 text-sm font-semibold text-ivory shadow-sm hover:bg-wine focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy"
