@@ -27,7 +27,7 @@ export default function Home() {
               <div className="relative px-6 sm:py-40 lg:px-8 lg:py-56 lg:pr-0">
                 <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                   <div className="hidden sm:mb-10 sm:flex">
-                    <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20 hover:text-white hover:bg-[#800020] p-2 rounded">
                       Bringing gourmet experiences to your celebrations.{' '}
                       <a href="about" className="whitespace-nowrap font-semibold text-burgundy">
                         <span className="absolute inset-0" aria-hidden="true" />
@@ -35,7 +35,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <h1 className="text-4xl font-bold tracking-tight text-burgundy sm:text-6xl hover:text-white hover:bg-[#800020] p-2 rounded">
+                  <h1 className="text-4xl font-bold tracking-tight text-burgundy sm:text-6xl">
                     Savor the Taste of Excellence
                   </h1>
                   <p className="mt-8 text-lg leading-8 text-gray-600"> 
