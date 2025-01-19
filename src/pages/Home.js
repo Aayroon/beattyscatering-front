@@ -35,7 +35,7 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <h1 className="text-4xl font-bold tracking-tight text-burgundy sm:text-6xl hover:bg-wine focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy">
+                  <h1 className="text-4xl font-bold tracking-tight text-burgundy sm:text-6xl hover:text-white hover:bg-[#800020] p-2 rounded">
                     Savor the Taste of Excellence
                   </h1>
                   <p className="mt-8 text-lg leading-8 text-gray-600"> 
