@@ -35,17 +35,17 @@ export default function Home() {
                       </a>
                     </div>
                   </div>
-                  <h1 className="text-4xl font-bold tracking-tight text-burgundy sm:text-6xl">
+                  <h1 className="text-4xl font-bold tracking-tight text-burgundy sm:text-6xl hover:bg-wine focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy">
                     Savor the Taste of Excellence
                   </h1>
-                  <p className="mt-8 text-lg leading-8 text-gray-600">
+                  <p className="mt-8 text-lg leading-8 text-gray-600"> 
                     From intimate gatherings to grand celebrations, we provide top-notch catering services for weddings, corporate events, parties, and more.
                     Our dedicated team brings culinary artistry and exceptional service to your special events, making them truly unforgettable.
                   </p>
                   <div className="mt-10 flex items-center gap-x-5">
                     <a
                         href="contact"
-                        className="rounded-md bg-burgundy px-3.5 py-2.5 text-sm font-semibold text-ivory shadow-sm hover:bg-wine focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy"
+                        className="text-sm font-semibold leading-6 text-burgundy hover:text-white hover:bg-[#800020] p-2 rounded"
                     >
                       Get a Quote
                     </a>
