@@ -29,7 +29,7 @@ export default function Home() {
                   <div className="hidden sm:mb-10 sm:flex">
                     <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20 hover:text-white hover:bg-[#800020] p-2 rounded">
                       Bringing gourmet experiences to your celebrations.{' '}
-                      <a href="about" className="whitespace-nowrap font-semibold text-burgundy">
+                      <a href="about" className="whitespace-nowrap font-semibold text-burgundy hover:text-white">
                         <span className="absolute inset-0" aria-hidden="true" />
                         Why choose us <span aria-hidden="true">&rarr;</span>
                       </a>
