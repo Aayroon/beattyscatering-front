@@ -101,7 +101,7 @@ const navigation = {
                       ))}
                   </div>
                   <p className="mt-10 text-center text-xs font-light text-gray-500">
-                      &copy; 2024 Beattys Catering. All rights reserved.
+                      &copy; 2025 Beattys Catering. All rights reserved.
                   </p>
               </div>
           </footer>
